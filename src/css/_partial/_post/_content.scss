@@ -10,6 +10,14 @@
       font-weight: 400;
       font-family: $global-serif-font-family;
 
+      @if $i == 1 {
+        font-weight: bold;
+      }
+
+      @if $i == 2 {
+        border-bottom: 1px solid #ddd;
+      }
+
       .anchor {
         float: left;
         line-height: 1;
